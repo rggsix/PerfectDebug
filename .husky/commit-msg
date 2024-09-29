@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+msg=`cat $1`
+if ! echo $msg | grep -Eq "^(fix|feat|BREAKING CHANGE|chore|docs|style|refactor|perf|test)(\((release|NoTicket|[A-Z]+-\d+)\))?: .*"; then
+    echo "Bad commit msg, the commit message should be structured as follows:"
+    echo "<type>(<ticket>): <description>"
+    echo "type is one of fix, feat, BREAKING CHANGE, chore, docs, style, refactor, perf or test"
+    echo "ticket is optional, is the bug/task ticket or NoTicket"
+    PID=$$
+    kill $PID
+fi

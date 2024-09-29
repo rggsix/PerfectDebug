@@ -1,0 +1,18 @@
+{
+  "packageFiles": [
+    {
+      "filename": "config.xcconfig",
+      "updater": "./standard-version-updater.js"
+    }
+  ],
+  "bumpFiles": [
+    {
+      "filename": "config.xcconfig",
+      "updater": "./standard-version-updater.js"
+    },
+    {
+      "filename": "PerfectDebug.podspec",
+      "updater": "./standard-version-updater.js"
+    }
+  ]
+}

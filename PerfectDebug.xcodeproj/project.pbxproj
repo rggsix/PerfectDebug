@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C5518A2952B7E2001385A4 /* WMDebugShortcutKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C551852952B7E2001385A4 /* WMDebugShortcutKey.m */; };
+		08C5518B2952B7E2001385A4 /* WMDSKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C551862952B7E2001385A4 /* WMDSKDefines.m */; };
+		08C5518D2952B7E2001385A4 /* WMDSKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C551882952B7E2001385A4 /* WMDSKManager.m */; };
+		08E841EE289C274B000EC584 /* DebugLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E841ED289C274B000EC584 /* DebugLogModel.m */; };
+		08E841F1289C2B50000EC584 /* DebugLogSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E841F0289C2B50000EC584 /* DebugLogSearchResult.m */; };
+		08E841FD289C37F9000EC584 /* DebugOnceStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E841FC289C37F9000EC584 /* DebugOnceStart.m */; };
+		08E841FE289C37F9000EC584 /* DebugOnceStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E841FC289C37F9000EC584 /* DebugOnceStart.m */; };
+		08E841FF289C37F9000EC584 /* DebugOnceStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E841FC289C37F9000EC584 /* DebugOnceStart.m */; };
+		433138C473CAA43153FEAA84 /* libPods-PerfectDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA205632F1F12EA8470695 /* libPods-PerfectDebug.a */; };
+		630C5290289BF0BA007F2A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630C528F289BF0BA007F2A81 /* Assets.xcassets */; };
+		630C5293289BF0BA007F2A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630C5291289BF0BA007F2A81 /* LaunchScreen.storyboard */; };
+		630C5296289BF0BA007F2A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5295289BF0BA007F2A81 /* main.m */; };
+		630C52A0289BF0BB007F2A81 /* PerfectDebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C529F289BF0BB007F2A81 /* PerfectDebugTests.m */; };
+		630C52AA289BF0BB007F2A81 /* PerfectDebugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52A9289BF0BB007F2A81 /* PerfectDebugUITests.m */; };
+		630C52AC289BF0BB007F2A81 /* PerfectDebugUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52AB289BF0BB007F2A81 /* PerfectDebugUITestsLaunchTests.m */; };
+		630C52BC289BF704007F2A81 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 630C52B8289BF704007F2A81 /* package.json */; };
+		630C52BD289BF704007F2A81 /* config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 630C52B9289BF704007F2A81 /* config.xcconfig */; };
+		630C52BE289BF704007F2A81 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 630C52BA289BF704007F2A81 /* CHANGELOG.md */; };
+		630C52BF289BF704007F2A81 /* PerfectDebug.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 630C52BB289BF704007F2A81 /* PerfectDebug.podspec */; };
+		630C52C4289BF81E007F2A81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52C0289BF81E007F2A81 /* AppDelegate.m */; };
+		630C52C5289BF81E007F2A81 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52C2289BF81E007F2A81 /* MainViewController.m */; };
+		630C5311289BF9B9007F2A81 /* DebugBackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52CA289BF9B9007F2A81 /* DebugBackTrace.m */; };
+		630C5312289BF9B9007F2A81 /* DebugBackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52CA289BF9B9007F2A81 /* DebugBackTrace.m */; };
+		630C5313289BF9B9007F2A81 /* DebugBackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52CA289BF9B9007F2A81 /* DebugBackTrace.m */; };
+		630C5314289BF9B9007F2A81 /* DebugCrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52CC289BF9B9007F2A81 /* DebugCrashMonitor.m */; };
+		630C5315289BF9B9007F2A81 /* DebugCrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52CC289BF9B9007F2A81 /* DebugCrashMonitor.m */; };
+		630C5316289BF9B9007F2A81 /* DebugCrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52CC289BF9B9007F2A81 /* DebugCrashMonitor.m */; };
+		630C531A289BF9B9007F2A81 /* DebugLogSearchListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D4289BF9B9007F2A81 /* DebugLogSearchListController.m */; };
+		630C531B289BF9B9007F2A81 /* DebugLogSearchListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D4289BF9B9007F2A81 /* DebugLogSearchListController.m */; };
+		630C531C289BF9B9007F2A81 /* DebugLogSearchListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D4289BF9B9007F2A81 /* DebugLogSearchListController.m */; };
+		630C531D289BF9B9007F2A81 /* DebugTagListSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D5289BF9B9007F2A81 /* DebugTagListSelectController.m */; };
+		630C531E289BF9B9007F2A81 /* DebugTagListSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D5289BF9B9007F2A81 /* DebugTagListSelectController.m */; };
+		630C531F289BF9B9007F2A81 /* DebugTagListSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D5289BF9B9007F2A81 /* DebugTagListSelectController.m */; };
+		630C5320289BF9B9007F2A81 /* DebugLogInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D6289BF9B9007F2A81 /* DebugLogInfoController.m */; };
+		630C5321289BF9B9007F2A81 /* DebugLogInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D6289BF9B9007F2A81 /* DebugLogInfoController.m */; };
+		630C5322289BF9B9007F2A81 /* DebugLogInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D6289BF9B9007F2A81 /* DebugLogInfoController.m */; };
+		630C5323289BF9B9007F2A81 /* DebugStartupListController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D9289BF9B9007F2A81 /* DebugStartupListController.mm */; };
+		630C5324289BF9B9007F2A81 /* DebugStartupListController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D9289BF9B9007F2A81 /* DebugStartupListController.mm */; };
+		630C5325289BF9B9007F2A81 /* DebugStartupListController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 630C52D9289BF9B9007F2A81 /* DebugStartupListController.mm */; };
+		630C5326289BF9B9007F2A81 /* DebugLogListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52DC289BF9B9007F2A81 /* DebugLogListController.m */; };
+		630C5327289BF9B9007F2A81 /* DebugLogListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52DC289BF9B9007F2A81 /* DebugLogListController.m */; };
+		630C5328289BF9B9007F2A81 /* DebugLogListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52DC289BF9B9007F2A81 /* DebugLogListController.m */; };
+		630C5329289BF9B9007F2A81 /* DebugLogAbstractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52DE289BF9B9007F2A81 /* DebugLogAbstractCell.m */; };
+		630C532A289BF9B9007F2A81 /* DebugLogAbstractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52DE289BF9B9007F2A81 /* DebugLogAbstractCell.m */; };
+		630C532B289BF9B9007F2A81 /* DebugLogAbstractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52DE289BF9B9007F2A81 /* DebugLogAbstractCell.m */; };
+		630C532C289BF9B9007F2A81 /* DebugUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E6289BF9B9007F2A81 /* DebugUtil.m */; };
+		630C532D289BF9B9007F2A81 /* DebugUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E6289BF9B9007F2A81 /* DebugUtil.m */; };
+		630C532E289BF9B9007F2A81 /* DebugUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E6289BF9B9007F2A81 /* DebugUtil.m */; };
+		630C532F289BF9B9007F2A81 /* DebugLogDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E7289BF9B9007F2A81 /* DebugLogDay.m */; };
+		630C5330289BF9B9007F2A81 /* DebugLogDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E7289BF9B9007F2A81 /* DebugLogDay.m */; };
+		630C5331289BF9B9007F2A81 /* DebugLogDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E7289BF9B9007F2A81 /* DebugLogDay.m */; };
+		630C5335289BF9B9007F2A81 /* DebugCoreCategorys.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E9289BF9B9007F2A81 /* DebugCoreCategorys.m */; };
+		630C5336289BF9B9007F2A81 /* DebugCoreCategorys.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E9289BF9B9007F2A81 /* DebugCoreCategorys.m */; };
+		630C5337289BF9B9007F2A81 /* DebugCoreCategorys.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52E9289BF9B9007F2A81 /* DebugCoreCategorys.m */; };
+		630C5338289BF9B9007F2A81 /* DebugLogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52EA289BF9B9007F2A81 /* DebugLogDataSource.m */; };
+		630C5339289BF9B9007F2A81 /* DebugLogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52EA289BF9B9007F2A81 /* DebugLogDataSource.m */; };
+		630C533A289BF9B9007F2A81 /* DebugLogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52EA289BF9B9007F2A81 /* DebugLogDataSource.m */; };
+		630C533B289BF9B9007F2A81 /* DebugLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52ED289BF9B9007F2A81 /* DebugLogManager.m */; };
+		630C533C289BF9B9007F2A81 /* DebugLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52ED289BF9B9007F2A81 /* DebugLogManager.m */; };
+		630C533D289BF9B9007F2A81 /* DebugLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52ED289BF9B9007F2A81 /* DebugLogManager.m */; };
+		630C533E289BF9B9007F2A81 /* PerfectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52EF289BF9B9007F2A81 /* PerfectDebug.m */; };
+		630C533F289BF9B9007F2A81 /* PerfectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52EF289BF9B9007F2A81 /* PerfectDebug.m */; };
+		630C5340289BF9B9007F2A81 /* PerfectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52EF289BF9B9007F2A81 /* PerfectDebug.m */; };
+		630C5341289BF9B9007F2A81 /* DebugDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F0289BF9B9007F2A81 /* DebugDisplayer.m */; };
+		630C5342289BF9B9007F2A81 /* DebugDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F0289BF9B9007F2A81 /* DebugDisplayer.m */; };
+		630C5343289BF9B9007F2A81 /* DebugDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F0289BF9B9007F2A81 /* DebugDisplayer.m */; };
+		630C5344289BF9B9007F2A81 /* DebugSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F5289BF9B9007F2A81 /* DebugSessionManager.m */; };
+		630C5345289BF9B9007F2A81 /* DebugSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F5289BF9B9007F2A81 /* DebugSessionManager.m */; };
+		630C5346289BF9B9007F2A81 /* DebugSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F5289BF9B9007F2A81 /* DebugSessionManager.m */; };
+		630C5347289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F7289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m */; };
+		630C5348289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F7289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m */; };
+		630C5349289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52F7289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m */; };
+		630C534A289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FA289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m */; };
+		630C534B289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FA289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m */; };
+		630C534C289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FA289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m */; };
+		630C534D289BF9B9007F2A81 /* DebugNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FB289BF9B9007F2A81 /* DebugNetworkMonitor.m */; };
+		630C534E289BF9B9007F2A81 /* DebugNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FB289BF9B9007F2A81 /* DebugNetworkMonitor.m */; };
+		630C534F289BF9B9007F2A81 /* DebugNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FB289BF9B9007F2A81 /* DebugNetworkMonitor.m */; };
+		630C5350289BF9B9007F2A81 /* DebugHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FE289BF9B9007F2A81 /* DebugHTTPProtocol.m */; };
+		630C5351289BF9B9007F2A81 /* DebugHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FE289BF9B9007F2A81 /* DebugHTTPProtocol.m */; };
+		630C5352289BF9B9007F2A81 /* DebugHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C52FE289BF9B9007F2A81 /* DebugHTTPProtocol.m */; };
+		630C5353289BF9B9007F2A81 /* debug_entry_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 630C5302289BF9B9007F2A81 /* debug_entry_icon.png */; };
+		630C5354289BF9B9007F2A81 /* debug_entry_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 630C5302289BF9B9007F2A81 /* debug_entry_icon.png */; };
+		630C5355289BF9B9007F2A81 /* debug_entry_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 630C5302289BF9B9007F2A81 /* debug_entry_icon.png */; };
+		630C5356289BF9B9007F2A81 /* DebugAppShortInfoLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5306289BF9B9007F2A81 /* DebugAppShortInfoLabel.m */; };
+		630C5357289BF9B9007F2A81 /* DebugAppShortInfoLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5306289BF9B9007F2A81 /* DebugAppShortInfoLabel.m */; };
+		630C5358289BF9B9007F2A81 /* DebugAppShortInfoLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5306289BF9B9007F2A81 /* DebugAppShortInfoLabel.m */; };
+		630C5359289BF9B9007F2A81 /* DebugAppHardwareMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5308289BF9B9007F2A81 /* DebugAppHardwareMonitor.m */; };
+		630C535A289BF9B9007F2A81 /* DebugAppHardwareMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5308289BF9B9007F2A81 /* DebugAppHardwareMonitor.m */; };
+		630C535B289BF9B9007F2A81 /* DebugAppHardwareMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C5308289BF9B9007F2A81 /* DebugAppHardwareMonitor.m */; };
+		630C535C289BF9B9007F2A81 /* DebugPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C530C289BF9B9007F2A81 /* DebugPerformance.m */; };
+		630C535D289BF9B9007F2A81 /* DebugPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C530C289BF9B9007F2A81 /* DebugPerformance.m */; };
+		630C535E289BF9B9007F2A81 /* DebugPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C530C289BF9B9007F2A81 /* DebugPerformance.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630C529C289BF0BB007F2A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630C5278289BF0B9007F2A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C527F289BF0B9007F2A81;
+			remoteInfo = PerfectDebug;
+		};
+		630C52A6289BF0BB007F2A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630C5278289BF0B9007F2A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C527F289BF0B9007F2A81;
+			remoteInfo = PerfectDebug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C551832952B7E2001385A4 /* WMDSKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDSKDefines.h; sourceTree = "<group>"; };
+		08C551842952B7E2001385A4 /* WMDSKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDSKManager.h; sourceTree = "<group>"; };
+		08C551852952B7E2001385A4 /* WMDebugShortcutKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDebugShortcutKey.m; sourceTree = "<group>"; };
+		08C551862952B7E2001385A4 /* WMDSKDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDSKDefines.m; sourceTree = "<group>"; };
+		08C551882952B7E2001385A4 /* WMDSKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDSKManager.m; sourceTree = "<group>"; };
+		08C551892952B7E2001385A4 /* WMDebugShortcutKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDebugShortcutKey.h; sourceTree = "<group>"; };
+		08E841ED289C274B000EC584 /* DebugLogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogModel.m; sourceTree = "<group>"; };
+		08E841EF289C2B50000EC584 /* DebugLogSearchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugLogSearchResult.h; sourceTree = "<group>"; };
+		08E841F0289C2B50000EC584 /* DebugLogSearchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugLogSearchResult.m; sourceTree = "<group>"; };
+		08E841FC289C37F9000EC584 /* DebugOnceStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugOnceStart.m; sourceTree = "<group>"; };
+		13BA205632F1F12EA8470695 /* libPods-PerfectDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerfectDebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C5280289BF0B9007F2A81 /* PerfectDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C528F289BF0BA007F2A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630C5292289BF0BA007F2A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630C5294289BF0BA007F2A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630C5295289BF0BA007F2A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630C529B289BF0BB007F2A81 /* PerfectDebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectDebugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C529F289BF0BB007F2A81 /* PerfectDebugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectDebugTests.m; sourceTree = "<group>"; };
+		630C52A5289BF0BB007F2A81 /* PerfectDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C52A9289BF0BB007F2A81 /* PerfectDebugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectDebugUITests.m; sourceTree = "<group>"; };
+		630C52AB289BF0BB007F2A81 /* PerfectDebugUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectDebugUITestsLaunchTests.m; sourceTree = "<group>"; };
+		630C52B8289BF704007F2A81 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		630C52B9289BF704007F2A81 /* config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		630C52BA289BF704007F2A81 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		630C52BB289BF704007F2A81 /* PerfectDebug.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PerfectDebug.podspec; sourceTree = "<group>"; };
+		630C52C0289BF81E007F2A81 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		630C52C1289BF81E007F2A81 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		630C52C2289BF81E007F2A81 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		630C52C3289BF81E007F2A81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		630C52C9289BF9B9007F2A81 /* DebugBackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugBackTrace.h; sourceTree = "<group>"; };
+		630C52CA289BF9B9007F2A81 /* DebugBackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugBackTrace.m; sourceTree = "<group>"; };
+		630C52CC289BF9B9007F2A81 /* DebugCrashMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugCrashMonitor.m; sourceTree = "<group>"; };
+		630C52CD289BF9B9007F2A81 /* DebugCrashMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugCrashMonitor.h; sourceTree = "<group>"; };
+		630C52D0289BF9B9007F2A81 /* DebugLogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogModel.h; sourceTree = "<group>"; };
+		630C52D3289BF9B9007F2A81 /* DebugStartupListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugStartupListController.h; sourceTree = "<group>"; };
+		630C52D4289BF9B9007F2A81 /* DebugLogSearchListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogSearchListController.m; sourceTree = "<group>"; };
+		630C52D5289BF9B9007F2A81 /* DebugTagListSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugTagListSelectController.m; sourceTree = "<group>"; };
+		630C52D6289BF9B9007F2A81 /* DebugLogInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogInfoController.m; sourceTree = "<group>"; };
+		630C52D7289BF9B9007F2A81 /* DebugLogListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogListController.h; sourceTree = "<group>"; };
+		630C52D8289BF9B9007F2A81 /* DebugLogSearchListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogSearchListController.h; sourceTree = "<group>"; };
+		630C52D9289BF9B9007F2A81 /* DebugStartupListController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DebugStartupListController.mm; sourceTree = "<group>"; };
+		630C52DA289BF9B9007F2A81 /* DebugTagListSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugTagListSelectController.h; sourceTree = "<group>"; };
+		630C52DB289BF9B9007F2A81 /* DebugLogInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogInfoController.h; sourceTree = "<group>"; };
+		630C52DC289BF9B9007F2A81 /* DebugLogListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogListController.m; sourceTree = "<group>"; };
+		630C52DE289BF9B9007F2A81 /* DebugLogAbstractCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogAbstractCell.m; sourceTree = "<group>"; };
+		630C52DF289BF9B9007F2A81 /* DebugLogAbstractCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogAbstractCell.h; sourceTree = "<group>"; };
+		630C52E1289BF9B9007F2A81 /* DebugUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugUtil.h; sourceTree = "<group>"; };
+		630C52E2289BF9B9007F2A81 /* DebugOnceStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugOnceStart.h; sourceTree = "<group>"; };
+		630C52E3289BF9B9007F2A81 /* DebugLogDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogDay.h; sourceTree = "<group>"; };
+		630C52E4289BF9B9007F2A81 /* DebugCoreCategorys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugCoreCategorys.h; sourceTree = "<group>"; };
+		630C52E5289BF9B9007F2A81 /* DebugLogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogDataSource.h; sourceTree = "<group>"; };
+		630C52E6289BF9B9007F2A81 /* DebugUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugUtil.m; sourceTree = "<group>"; };
+		630C52E7289BF9B9007F2A81 /* DebugLogDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogDay.m; sourceTree = "<group>"; };
+		630C52E9289BF9B9007F2A81 /* DebugCoreCategorys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugCoreCategorys.m; sourceTree = "<group>"; };
+		630C52EA289BF9B9007F2A81 /* DebugLogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogDataSource.m; sourceTree = "<group>"; };
+		630C52EB289BF9B9007F2A81 /* PerfectDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectDebug.h; sourceTree = "<group>"; };
+		630C52ED289BF9B9007F2A81 /* DebugLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogManager.m; sourceTree = "<group>"; };
+		630C52EE289BF9B9007F2A81 /* DebugDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugDisplayer.h; sourceTree = "<group>"; };
+		630C52EF289BF9B9007F2A81 /* PerfectDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectDebug.m; sourceTree = "<group>"; };
+		630C52F0289BF9B9007F2A81 /* DebugDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugDisplayer.m; sourceTree = "<group>"; };
+		630C52F1289BF9B9007F2A81 /* DebugLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogManager.h; sourceTree = "<group>"; };
+		630C52F5289BF9B9007F2A81 /* DebugSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugSessionManager.m; sourceTree = "<group>"; };
+		630C52F6289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DebugLogManager+NetworkMonitor.h"; sourceTree = "<group>"; };
+		630C52F7289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DebugLogManager+NetworkMonitor.m"; sourceTree = "<group>"; };
+		630C52F8289BF9B9007F2A81 /* DebugSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugSessionManager.h; sourceTree = "<group>"; };
+		630C52FA289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionConfiguration+PerfectDebug.m"; sourceTree = "<group>"; };
+		630C52FB289BF9B9007F2A81 /* DebugNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugNetworkMonitor.m; sourceTree = "<group>"; };
+		630C52FC289BF9B9007F2A81 /* DebugHTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugHTTPProtocol.h; sourceTree = "<group>"; };
+		630C52FD289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionConfiguration+PerfectDebug.h"; sourceTree = "<group>"; };
+		630C52FE289BF9B9007F2A81 /* DebugHTTPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugHTTPProtocol.m; sourceTree = "<group>"; };
+		630C52FF289BF9B9007F2A81 /* DebugNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugNetworkMonitor.h; sourceTree = "<group>"; };
+		630C5302289BF9B9007F2A81 /* debug_entry_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debug_entry_icon.png; sourceTree = "<group>"; };
+		630C5305289BF9B9007F2A81 /* DebugAppShortInfoLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAppShortInfoLabel.h; sourceTree = "<group>"; };
+		630C5306289BF9B9007F2A81 /* DebugAppShortInfoLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugAppShortInfoLabel.m; sourceTree = "<group>"; };
+		630C5308289BF9B9007F2A81 /* DebugAppHardwareMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugAppHardwareMonitor.m; sourceTree = "<group>"; };
+		630C5309289BF9B9007F2A81 /* DebugAppHardwareMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAppHardwareMonitor.h; sourceTree = "<group>"; };
+		630C530B289BF9B9007F2A81 /* DebugPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugPerformance.h; sourceTree = "<group>"; };
+		630C530C289BF9B9007F2A81 /* DebugPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugPerformance.m; sourceTree = "<group>"; };
+		9F9F355F4602AC080368FE14 /* Pods-PerfectDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectDebug.debug.xcconfig"; path = "Target Support Files/Pods-PerfectDebug/Pods-PerfectDebug.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C7032FF170894AC718E889 /* Pods-PerfectDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectDebug.release.xcconfig"; path = "Target Support Files/Pods-PerfectDebug/Pods-PerfectDebug.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630C527D289BF0B9007F2A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433138C473CAA43153FEAA84 /* libPods-PerfectDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C5298289BF0BB007F2A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C52A2289BF0BB007F2A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C551812952B7E2001385A4 /* DebugShortcutKey */ = {
+			isa = PBXGroup;
+			children = (
+				08C551832952B7E2001385A4 /* WMDSKDefines.h */,
+				08C551842952B7E2001385A4 /* WMDSKManager.h */,
+				08C551852952B7E2001385A4 /* WMDebugShortcutKey.m */,
+				08C551862952B7E2001385A4 /* WMDSKDefines.m */,
+				08C551882952B7E2001385A4 /* WMDSKManager.m */,
+				08C551892952B7E2001385A4 /* WMDebugShortcutKey.h */,
+			);
+			path = DebugShortcutKey;
+			sourceTree = "<group>";
+		};
+		630C5277289BF0B9007F2A81 = {
+			isa = PBXGroup;
+			children = (
+				630C52BA289BF704007F2A81 /* CHANGELOG.md */,
+				630C52B9289BF704007F2A81 /* config.xcconfig */,
+				630C52B8289BF704007F2A81 /* package.json */,
+				630C52BB289BF704007F2A81 /* PerfectDebug.podspec */,
+				630C52C6289BF9B9007F2A81 /* Source */,
+				630C5282289BF0B9007F2A81 /* PerfectDebug */,
+				630C529E289BF0BB007F2A81 /* PerfectDebugTests */,
+				630C52A8289BF0BB007F2A81 /* PerfectDebugUITests */,
+				630C5281289BF0B9007F2A81 /* Products */,
+				BEDB3E3B9D43308497702C85 /* Pods */,
+				840A0D2959F091F7F6BE0FE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		630C5281289BF0B9007F2A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630C5280289BF0B9007F2A81 /* PerfectDebug.app */,
+				630C529B289BF0BB007F2A81 /* PerfectDebugTests.xctest */,
+				630C52A5289BF0BB007F2A81 /* PerfectDebugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630C5282289BF0B9007F2A81 /* PerfectDebug */ = {
+			isa = PBXGroup;
+			children = (
+				630C52C1289BF81E007F2A81 /* AppDelegate.h */,
+				630C52C0289BF81E007F2A81 /* AppDelegate.m */,
+				630C52C3289BF81E007F2A81 /* MainViewController.h */,
+				630C52C2289BF81E007F2A81 /* MainViewController.m */,
+				630C528F289BF0BA007F2A81 /* Assets.xcassets */,
+				630C5291289BF0BA007F2A81 /* LaunchScreen.storyboard */,
+				630C5294289BF0BA007F2A81 /* Info.plist */,
+				630C5295289BF0BA007F2A81 /* main.m */,
+			);
+			path = PerfectDebug;
+			sourceTree = "<group>";
+		};
+		630C529E289BF0BB007F2A81 /* PerfectDebugTests */ = {
+			isa = PBXGroup;
+			children = (
+				630C529F289BF0BB007F2A81 /* PerfectDebugTests.m */,
+			);
+			path = PerfectDebugTests;
+			sourceTree = "<group>";
+		};
+		630C52A8289BF0BB007F2A81 /* PerfectDebugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				630C52A9289BF0BB007F2A81 /* PerfectDebugUITests.m */,
+				630C52AB289BF0BB007F2A81 /* PerfectDebugUITestsLaunchTests.m */,
+			);
+			path = PerfectDebugUITests;
+			sourceTree = "<group>";
+		};
+		630C52C6289BF9B9007F2A81 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08C551812952B7E2001385A4 /* DebugShortcutKey */,
+				630C52CE289BF9B9007F2A81 /* Core */,
+				630C5301289BF9B9007F2A81 /* Resource */,
+				630C52C7289BF9B9007F2A81 /* CrashMonitor */,
+				630C52F3289BF9B9007F2A81 /* NetworkMonitor */,
+				630C5303289BF9B9007F2A81 /* Performance */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		630C52C7289BF9B9007F2A81 /* CrashMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				630C52C8289BF9B9007F2A81 /* Helpers */,
+				630C52CB289BF9B9007F2A81 /* Services */,
+			);
+			path = CrashMonitor;
+			sourceTree = "<group>";
+		};
+		630C52C8289BF9B9007F2A81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				630C52C9289BF9B9007F2A81 /* DebugBackTrace.h */,
+				630C52CA289BF9B9007F2A81 /* DebugBackTrace.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		630C52CB289BF9B9007F2A81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				630C52CC289BF9B9007F2A81 /* DebugCrashMonitor.m */,
+				630C52CD289BF9B9007F2A81 /* DebugCrashMonitor.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		630C52CE289BF9B9007F2A81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				630C52EB289BF9B9007F2A81 /* PerfectDebug.h */,
+				630C52CF289BF9B9007F2A81 /* Models */,
+				630C52D2289BF9B9007F2A81 /* Controllers */,
+				630C52DD289BF9B9007F2A81 /* Views */,
+				630C52E0289BF9B9007F2A81 /* Helpers */,
+				630C52EC289BF9B9007F2A81 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		630C52CF289BF9B9007F2A81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630C52D0289BF9B9007F2A81 /* DebugLogModel.h */,
+				08E841ED289C274B000EC584 /* DebugLogModel.m */,
+				08E841EF289C2B50000EC584 /* DebugLogSearchResult.h */,
+				08E841F0289C2B50000EC584 /* DebugLogSearchResult.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		630C52D2289BF9B9007F2A81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				630C52D3289BF9B9007F2A81 /* DebugStartupListController.h */,
+				630C52D9289BF9B9007F2A81 /* DebugStartupListController.mm */,
+				630C52DB289BF9B9007F2A81 /* DebugLogInfoController.h */,
+				630C52D6289BF9B9007F2A81 /* DebugLogInfoController.m */,
+				630C52D8289BF9B9007F2A81 /* DebugLogSearchListController.h */,
+				630C52D4289BF9B9007F2A81 /* DebugLogSearchListController.m */,
+				630C52DA289BF9B9007F2A81 /* DebugTagListSelectController.h */,
+				630C52D5289BF9B9007F2A81 /* DebugTagListSelectController.m */,
+				630C52D7289BF9B9007F2A81 /* DebugLogListController.h */,
+				630C52DC289BF9B9007F2A81 /* DebugLogListController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		630C52DD289BF9B9007F2A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				630C52DE289BF9B9007F2A81 /* DebugLogAbstractCell.m */,
+				630C52DF289BF9B9007F2A81 /* DebugLogAbstractCell.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		630C52E0289BF9B9007F2A81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				630C52E1289BF9B9007F2A81 /* DebugUtil.h */,
+				630C52E6289BF9B9007F2A81 /* DebugUtil.m */,
+				630C52E3289BF9B9007F2A81 /* DebugLogDay.h */,
+				630C52E7289BF9B9007F2A81 /* DebugLogDay.m */,
+				630C52E2289BF9B9007F2A81 /* DebugOnceStart.h */,
+				08E841FC289C37F9000EC584 /* DebugOnceStart.m */,
+				630C52E4289BF9B9007F2A81 /* DebugCoreCategorys.h */,
+				630C52E9289BF9B9007F2A81 /* DebugCoreCategorys.m */,
+				630C52E5289BF9B9007F2A81 /* DebugLogDataSource.h */,
+				630C52EA289BF9B9007F2A81 /* DebugLogDataSource.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		630C52EC289BF9B9007F2A81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				630C52F1289BF9B9007F2A81 /* DebugLogManager.h */,
+				630C52ED289BF9B9007F2A81 /* DebugLogManager.m */,
+				630C52EE289BF9B9007F2A81 /* DebugDisplayer.h */,
+				630C52F0289BF9B9007F2A81 /* DebugDisplayer.m */,
+				630C52EF289BF9B9007F2A81 /* PerfectDebug.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		630C52F3289BF9B9007F2A81 /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				630C52F4289BF9B9007F2A81 /* Helpers */,
+				630C52F9289BF9B9007F2A81 /* Services */,
+			);
+			path = NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		630C52F4289BF9B9007F2A81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				630C52F5289BF9B9007F2A81 /* DebugSessionManager.m */,
+				630C52F6289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.h */,
+				630C52F7289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m */,
+				630C52F8289BF9B9007F2A81 /* DebugSessionManager.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		630C52F9289BF9B9007F2A81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				630C52FA289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m */,
+				630C52FB289BF9B9007F2A81 /* DebugNetworkMonitor.m */,
+				630C52FC289BF9B9007F2A81 /* DebugHTTPProtocol.h */,
+				630C52FD289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.h */,
+				630C52FE289BF9B9007F2A81 /* DebugHTTPProtocol.m */,
+				630C52FF289BF9B9007F2A81 /* DebugNetworkMonitor.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		630C5301289BF9B9007F2A81 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				630C5302289BF9B9007F2A81 /* debug_entry_icon.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		630C5303289BF9B9007F2A81 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				630C5304289BF9B9007F2A81 /* Views */,
+				630C5307289BF9B9007F2A81 /* Helpers */,
+				630C530A289BF9B9007F2A81 /* Services */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+		630C5304289BF9B9007F2A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				630C5305289BF9B9007F2A81 /* DebugAppShortInfoLabel.h */,
+				630C5306289BF9B9007F2A81 /* DebugAppShortInfoLabel.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		630C5307289BF9B9007F2A81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				630C5308289BF9B9007F2A81 /* DebugAppHardwareMonitor.m */,
+				630C5309289BF9B9007F2A81 /* DebugAppHardwareMonitor.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		630C530A289BF9B9007F2A81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				630C530B289BF9B9007F2A81 /* DebugPerformance.h */,
+				630C530C289BF9B9007F2A81 /* DebugPerformance.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		840A0D2959F091F7F6BE0FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13BA205632F1F12EA8470695 /* libPods-PerfectDebug.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDB3E3B9D43308497702C85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F355F4602AC080368FE14 /* Pods-PerfectDebug.debug.xcconfig */,
+				F7C7032FF170894AC718E889 /* Pods-PerfectDebug.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630C527F289BF0B9007F2A81 /* PerfectDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C52AF289BF0BB007F2A81 /* Build configuration list for PBXNativeTarget "PerfectDebug" */;
+			buildPhases = (
+				B1A39A7C8EB2A0E85C866904 /* [CP] Check Pods Manifest.lock */,
+				630C527C289BF0B9007F2A81 /* Sources */,
+				630C527D289BF0B9007F2A81 /* Frameworks */,
+				630C527E289BF0B9007F2A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectDebug;
+			productName = PerfectDebug;
+			productReference = 630C5280289BF0B9007F2A81 /* PerfectDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630C529A289BF0BB007F2A81 /* PerfectDebugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C52B2289BF0BB007F2A81 /* Build configuration list for PBXNativeTarget "PerfectDebugTests" */;
+			buildPhases = (
+				630C5297289BF0BB007F2A81 /* Sources */,
+				630C5298289BF0BB007F2A81 /* Frameworks */,
+				630C5299289BF0BB007F2A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630C529D289BF0BB007F2A81 /* PBXTargetDependency */,
+			);
+			name = PerfectDebugTests;
+			productName = PerfectDebugTests;
+			productReference = 630C529B289BF0BB007F2A81 /* PerfectDebugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		630C52A4289BF0BB007F2A81 /* PerfectDebugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C52B5289BF0BB007F2A81 /* Build configuration list for PBXNativeTarget "PerfectDebugUITests" */;
+			buildPhases = (
+				630C52A1289BF0BB007F2A81 /* Sources */,
+				630C52A2289BF0BB007F2A81 /* Frameworks */,
+				630C52A3289BF0BB007F2A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630C52A7289BF0BB007F2A81 /* PBXTargetDependency */,
+			);
+			name = PerfectDebugUITests;
+			productName = PerfectDebugUITests;
+			productReference = 630C52A5289BF0BB007F2A81 /* PerfectDebugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630C5278289BF0B9007F2A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					630C527F289BF0B9007F2A81 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					630C529A289BF0BB007F2A81 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 630C527F289BF0B9007F2A81;
+					};
+					630C52A4289BF0BB007F2A81 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 630C527F289BF0B9007F2A81;
+					};
+				};
+			};
+			buildConfigurationList = 630C527B289BF0B9007F2A81 /* Build configuration list for PBXProject "PerfectDebug" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630C5277289BF0B9007F2A81;
+			productRefGroup = 630C5281289BF0B9007F2A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630C527F289BF0B9007F2A81 /* PerfectDebug */,
+				630C529A289BF0BB007F2A81 /* PerfectDebugTests */,
+				630C52A4289BF0BB007F2A81 /* PerfectDebugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630C527E289BF0B9007F2A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C52BF289BF704007F2A81 /* PerfectDebug.podspec in Resources */,
+				630C52BD289BF704007F2A81 /* config.xcconfig in Resources */,
+				630C52BE289BF704007F2A81 /* CHANGELOG.md in Resources */,
+				630C5293289BF0BA007F2A81 /* LaunchScreen.storyboard in Resources */,
+				630C5353289BF9B9007F2A81 /* debug_entry_icon.png in Resources */,
+				630C5290289BF0BA007F2A81 /* Assets.xcassets in Resources */,
+				630C52BC289BF704007F2A81 /* package.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C5299289BF0BB007F2A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C5354289BF9B9007F2A81 /* debug_entry_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C52A3289BF0BB007F2A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C5355289BF9B9007F2A81 /* debug_entry_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1A39A7C8EB2A0E85C866904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectDebug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630C527C289BF0B9007F2A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C5347289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m in Sources */,
+				630C5335289BF9B9007F2A81 /* DebugCoreCategorys.m in Sources */,
+				630C531A289BF9B9007F2A81 /* DebugLogSearchListController.m in Sources */,
+				630C5359289BF9B9007F2A81 /* DebugAppHardwareMonitor.m in Sources */,
+				630C5356289BF9B9007F2A81 /* DebugAppShortInfoLabel.m in Sources */,
+				08C5518A2952B7E2001385A4 /* WMDebugShortcutKey.m in Sources */,
+				630C5338289BF9B9007F2A81 /* DebugLogDataSource.m in Sources */,
+				630C533E289BF9B9007F2A81 /* PerfectDebug.m in Sources */,
+				630C5323289BF9B9007F2A81 /* DebugStartupListController.mm in Sources */,
+				630C5329289BF9B9007F2A81 /* DebugLogAbstractCell.m in Sources */,
+				630C52C4289BF81E007F2A81 /* AppDelegate.m in Sources */,
+				08E841EE289C274B000EC584 /* DebugLogModel.m in Sources */,
+				630C5350289BF9B9007F2A81 /* DebugHTTPProtocol.m in Sources */,
+				630C52C5289BF81E007F2A81 /* MainViewController.m in Sources */,
+				630C5311289BF9B9007F2A81 /* DebugBackTrace.m in Sources */,
+				08C5518D2952B7E2001385A4 /* WMDSKManager.m in Sources */,
+				630C534A289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m in Sources */,
+				630C535C289BF9B9007F2A81 /* DebugPerformance.m in Sources */,
+				630C533B289BF9B9007F2A81 /* DebugLogManager.m in Sources */,
+				630C531D289BF9B9007F2A81 /* DebugTagListSelectController.m in Sources */,
+				630C5320289BF9B9007F2A81 /* DebugLogInfoController.m in Sources */,
+				630C532C289BF9B9007F2A81 /* DebugUtil.m in Sources */,
+				630C5344289BF9B9007F2A81 /* DebugSessionManager.m in Sources */,
+				630C534D289BF9B9007F2A81 /* DebugNetworkMonitor.m in Sources */,
+				630C5314289BF9B9007F2A81 /* DebugCrashMonitor.m in Sources */,
+				630C5296289BF0BA007F2A81 /* main.m in Sources */,
+				08C5518B2952B7E2001385A4 /* WMDSKDefines.m in Sources */,
+				08E841FD289C37F9000EC584 /* DebugOnceStart.m in Sources */,
+				630C5326289BF9B9007F2A81 /* DebugLogListController.m in Sources */,
+				08E841F1289C2B50000EC584 /* DebugLogSearchResult.m in Sources */,
+				630C532F289BF9B9007F2A81 /* DebugLogDay.m in Sources */,
+				630C5341289BF9B9007F2A81 /* DebugDisplayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C5297289BF0BB007F2A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C533C289BF9B9007F2A81 /* DebugLogManager.m in Sources */,
+				08E841FE289C37F9000EC584 /* DebugOnceStart.m in Sources */,
+				630C532A289BF9B9007F2A81 /* DebugLogAbstractCell.m in Sources */,
+				630C5312289BF9B9007F2A81 /* DebugBackTrace.m in Sources */,
+				630C5324289BF9B9007F2A81 /* DebugStartupListController.mm in Sources */,
+				630C5327289BF9B9007F2A81 /* DebugLogListController.m in Sources */,
+				630C532D289BF9B9007F2A81 /* DebugUtil.m in Sources */,
+				630C531B289BF9B9007F2A81 /* DebugLogSearchListController.m in Sources */,
+				630C531E289BF9B9007F2A81 /* DebugTagListSelectController.m in Sources */,
+				630C52A0289BF0BB007F2A81 /* PerfectDebugTests.m in Sources */,
+				630C5321289BF9B9007F2A81 /* DebugLogInfoController.m in Sources */,
+				630C5351289BF9B9007F2A81 /* DebugHTTPProtocol.m in Sources */,
+				630C534E289BF9B9007F2A81 /* DebugNetworkMonitor.m in Sources */,
+				630C5348289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m in Sources */,
+				630C5315289BF9B9007F2A81 /* DebugCrashMonitor.m in Sources */,
+				630C5342289BF9B9007F2A81 /* DebugDisplayer.m in Sources */,
+				630C533F289BF9B9007F2A81 /* PerfectDebug.m in Sources */,
+				630C534B289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m in Sources */,
+				630C5345289BF9B9007F2A81 /* DebugSessionManager.m in Sources */,
+				630C535D289BF9B9007F2A81 /* DebugPerformance.m in Sources */,
+				630C5339289BF9B9007F2A81 /* DebugLogDataSource.m in Sources */,
+				630C5336289BF9B9007F2A81 /* DebugCoreCategorys.m in Sources */,
+				630C535A289BF9B9007F2A81 /* DebugAppHardwareMonitor.m in Sources */,
+				630C5330289BF9B9007F2A81 /* DebugLogDay.m in Sources */,
+				630C5357289BF9B9007F2A81 /* DebugAppShortInfoLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C52A1289BF0BB007F2A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C52AC289BF0BB007F2A81 /* PerfectDebugUITestsLaunchTests.m in Sources */,
+				630C5331289BF9B9007F2A81 /* DebugLogDay.m in Sources */,
+				630C532B289BF9B9007F2A81 /* DebugLogAbstractCell.m in Sources */,
+				630C533A289BF9B9007F2A81 /* DebugLogDataSource.m in Sources */,
+				08E841FF289C37F9000EC584 /* DebugOnceStart.m in Sources */,
+				630C5313289BF9B9007F2A81 /* DebugBackTrace.m in Sources */,
+				630C5325289BF9B9007F2A81 /* DebugStartupListController.mm in Sources */,
+				630C5346289BF9B9007F2A81 /* DebugSessionManager.m in Sources */,
+				630C531F289BF9B9007F2A81 /* DebugTagListSelectController.m in Sources */,
+				630C534C289BF9B9007F2A81 /* NSURLSessionConfiguration+PerfectDebug.m in Sources */,
+				630C5358289BF9B9007F2A81 /* DebugAppShortInfoLabel.m in Sources */,
+				630C5343289BF9B9007F2A81 /* DebugDisplayer.m in Sources */,
+				630C535B289BF9B9007F2A81 /* DebugAppHardwareMonitor.m in Sources */,
+				630C533D289BF9B9007F2A81 /* DebugLogManager.m in Sources */,
+				630C5322289BF9B9007F2A81 /* DebugLogInfoController.m in Sources */,
+				630C5337289BF9B9007F2A81 /* DebugCoreCategorys.m in Sources */,
+				630C532E289BF9B9007F2A81 /* DebugUtil.m in Sources */,
+				630C5328289BF9B9007F2A81 /* DebugLogListController.m in Sources */,
+				630C534F289BF9B9007F2A81 /* DebugNetworkMonitor.m in Sources */,
+				630C535E289BF9B9007F2A81 /* DebugPerformance.m in Sources */,
+				630C5316289BF9B9007F2A81 /* DebugCrashMonitor.m in Sources */,
+				630C531C289BF9B9007F2A81 /* DebugLogSearchListController.m in Sources */,
+				630C52AA289BF0BB007F2A81 /* PerfectDebugUITests.m in Sources */,
+				630C5349289BF9B9007F2A81 /* DebugLogManager+NetworkMonitor.m in Sources */,
+				630C5340289BF9B9007F2A81 /* PerfectDebug.m in Sources */,
+				630C5352289BF9B9007F2A81 /* DebugHTTPProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630C529D289BF0BB007F2A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630C527F289BF0B9007F2A81 /* PerfectDebug */;
+			targetProxy = 630C529C289BF0BB007F2A81 /* PBXContainerItemProxy */;
+		};
+		630C52A7289BF0BB007F2A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630C527F289BF0B9007F2A81 /* PerfectDebug */;
+			targetProxy = 630C52A6289BF0BB007F2A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630C5291289BF0BA007F2A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630C5292289BF0BA007F2A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630C52AD289BF0BB007F2A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630C52B9289BF704007F2A81 /* config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630C52AE289BF0BB007F2A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630C52B9289BF704007F2A81 /* config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630C52B0289BF0BB007F2A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9F355F4602AC080368FE14 /* Pods-PerfectDebug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.4;
+				DEVELOPMENT_TEAM = 938JT75Y9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectDebug/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PerfectDebug;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectword.PerfectDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		630C52B1289BF0BB007F2A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C7032FF170894AC718E889 /* Pods-PerfectDebug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.4;
+				DEVELOPMENT_TEAM = 938JT75Y9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectDebug/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PerfectDebug;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectword.PerfectDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		630C52B3289BF0BB007F2A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectword.PerfectDebugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectDebug.app/PerfectDebug";
+			};
+			name = Debug;
+		};
+		630C52B4289BF0BB007F2A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectword.PerfectDebugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectDebug.app/PerfectDebug";
+			};
+			name = Release;
+		};
+		630C52B6289BF0BB007F2A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectword.PerfectDebugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = PerfectDebug;
+			};
+			name = Debug;
+		};
+		630C52B7289BF0BB007F2A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectword.PerfectDebugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = PerfectDebug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630C527B289BF0B9007F2A81 /* Build configuration list for PBXProject "PerfectDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C52AD289BF0BB007F2A81 /* Debug */,
+				630C52AE289BF0BB007F2A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C52AF289BF0BB007F2A81 /* Build configuration list for PBXNativeTarget "PerfectDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C52B0289BF0BB007F2A81 /* Debug */,
+				630C52B1289BF0BB007F2A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C52B2289BF0BB007F2A81 /* Build configuration list for PBXNativeTarget "PerfectDebugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C52B3289BF0BB007F2A81 /* Debug */,
+				630C52B4289BF0BB007F2A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C52B5289BF0BB007F2A81 /* Build configuration list for PBXNativeTarget "PerfectDebugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C52B6289BF0BB007F2A81 /* Debug */,
+				630C52B7289BF0BB007F2A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630C5278289BF0B9007F2A81 /* Project object */;
+}
